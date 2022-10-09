@@ -82,5 +82,5 @@ customer_end.describe()
 customer_stay = customer_join.loc[customer_join['is_deleted']==0]
 customer_stay.describe()
 
-# 
+# 덤핑
 customer_join.to_csv("customer_join.csv" , index=False)
